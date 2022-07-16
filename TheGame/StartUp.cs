@@ -7,9 +7,6 @@ namespace TheGame
     {
         static void Main(string[] args)
         {
-            InvalidChoiceException iv = new InvalidChoiceException("WTF");
-            Console.WriteLine(iv.Message);
-
             List<string> botPicks = new List<string> { "r", "p", "s" };
             Random rnd = new Random();
             int userScore = 0;
